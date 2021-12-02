@@ -1,4 +1,4 @@
-# donate
+# Donate with Crypto
 Donate With Cryptocurrency
 
 [Live Demo](https://donate-crypto.netlify.app/)
