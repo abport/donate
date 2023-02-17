@@ -5,7 +5,8 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa;
+  font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,4 +14,19 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+.modal-sheet p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+.abtopheader {
+  padding-top: 6px;
+}
+.modal-sheet small, .abtoplink {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #6c757d;
+  margin-bottom: 0.5rem;
 }
