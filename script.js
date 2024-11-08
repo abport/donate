@@ -1,10 +1,10 @@
-function copyToClipboard(text) {
-  const elem = document.createElement("textarea");
-  var theText = document.getElementById(text).textContent;
-  elem.value = theText;
-  document.body.appendChild(elem);
-  elem.select();
-  document.execCommand("copy");
-  document.body.removeChild(elem);
-  alert("Copied to Clipboard");
+function copyToClipboard(id) {
+  var copyText = document.getElementById(id).textContent;
+  navigator.clipboard.writeText(copyText).then(function () {
+    var toastEl = document.getElementById('copyToast');
+    var toast = new bootstrap.Toast(toastEl);
+    toast.show();
+  }, function (err) {
+    console.error('Could not copy text: ', err);
+  });
 }
