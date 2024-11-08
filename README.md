@@ -2,7 +2,7 @@
 Donate With Cryptocurrency
 
 <p>
-  <a href="https://donate-crypto.netlify.app/"
+  <a href="https://abport.github.io/donate/"
     ><img
       src="https://img.shields.io/static/v1?label=&message=Live%20Demo&color=orange"
       height="25"
